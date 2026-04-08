@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Get balance",
+      "method": "POST",
+      "path": "/",
+      "body": {"action": "get_balance", "user_id": 1},
+      "expectedStatus": 200,
+      "expectedBody": {"balance": 0},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

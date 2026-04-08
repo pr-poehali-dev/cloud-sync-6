@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Get tariffs",
+      "method": "POST",
+      "path": "/",
+      "body": {"action": "get_tariffs"},
+      "expectedStatus": 200,
+      "expectedBody": {"tariffs": []},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

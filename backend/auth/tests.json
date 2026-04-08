@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Login user",
+      "method": "POST",
+      "path": "/",
+      "body": {"action": "login", "name": "TestUser123", "password": "test123"},
+      "expectedStatus": 200,
+      "expectedBody": {"name": "TestUser123"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
