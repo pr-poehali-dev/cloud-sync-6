@@ -8,7 +8,7 @@
   :root {
     /* Тема "Рубль" — зелёный, золотой, бордовый */
     --background: 120 8% 97%;
-    --foreground: 43 75% 82%; /* Золотой текст */
+    --foreground: 0 0% 98%; /* Белый текст */
     --card: 142 20% 12%;
     --card-foreground: 43 60% 92%;
     --popover: 142 20% 12%;
@@ -115,8 +115,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", Georgia, serif;
-  color: hsl(43 90% 65%);
-  text-shadow: 0 1px 8px rgba(180, 140, 20, 0.3);
+  color: hsl(0 0% 98%);
 }
 
 /* Glassmorphism для карточек и панелей */
