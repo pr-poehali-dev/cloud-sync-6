@@ -175,7 +175,7 @@ export default function Dashboard() {
         <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-700 flex items-center justify-center text-xs font-bold text-green-900">П</div>
-            <span className="font-bold font-serif text-yellow-300">Плям про<span className="text-yellow-500">100</span></span>
+            <span className="font-bold text-yellow-300">Плям про<span className="text-yellow-500">100</span></span>
           </div>
           <div className="flex items-center gap-3">
             <span className="text-yellow-600 text-sm hidden md:block">{user.name}</span>

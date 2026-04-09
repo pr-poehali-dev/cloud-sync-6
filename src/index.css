@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -107,14 +107,12 @@
   }
 }
 
-/* Золотые заголовки */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", Georgia, serif;
   color: hsl(0 0% 98%);
 }
 
